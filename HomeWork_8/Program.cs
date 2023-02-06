@@ -5,6 +5,8 @@ int num_N = Convert.ToInt32(Console.ReadLine());
 int current_num_N = 1;
 while(current_num_N <= num_N)
 {
+    if (current_num_N % 2 == 0)
     Console.Write(current_num_N +" ");
     current_num_N++;
 }
+
